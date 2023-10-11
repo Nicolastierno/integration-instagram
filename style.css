@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.site-logo {
+    color: #fff;
+}
+.site-logo {
+    width: 100px;
+}
+.section__rigth {
+    width: 84%;
+    padding: 16px;
+    border-left: 1px solid rgb(36, 36, 36);
+    min-height: 100vh;
+}
+.header {
+    margin-bottom: 46px;
+}
+.header__section {
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+.header__section--top {
+    align-items: center;
+    margin: 36px auto 60px
+}
+.img__profile-picture {
+    margin: 0 80px 0 32px;
+    width: 150px;
+    border-radius: 50%;
+}
+.story-container {
+    margin-right: 32px;
+    text-align: center;
+}
+.story__img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.profile-info {
+    width: 70%;
+    align-items: center;
+}
+.profile-info--top, .profile-info--middle {
+    margin-bottom: 24px;
+}
+.profile-info--top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+.btn {
+    padding: 8px 16px;
+    background-color: #505050;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-option {
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+}
+.profile-info--middle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+.bio {
+    margin-bottom: 16px;
+}
+.info {
+    font-size: 0.9rem;
+    color: #a4a4a4;
+    font-weight: 400;
+}
+.info--strong {
+    color: #fff;
+    font-weight: 700;
+}
+.feed {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-top: 1px solid #2b2b2b;
+    padding-top: 16px;
+}
+.part {
+    margin-bottom: 10px;
+}
+.part__text {
+    margin: 0 32px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.feed__img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.feed__img {
+    width: 315px;
+}
+.section__left {
+    height: 100vh;
+    width: 20%;
+    padding: 36px;
+}
+.section__left-container {
+    position: fixed;
+}
+.site-logo {
+    width: 110px;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 650px;
+
+}
+.nav__item {
+    list-style-type: none;
+    margin-bottom: 24px;
+    font-size: 1.2rem;
+}

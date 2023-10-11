@@ -3,42 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Instagram | Nico</title>
 </head>
 <body>
-    <header class="header">
-        <section class="header__section header__section--top">
-            <img src="" alt="">
-            <div class="profile-info">
-                <div class="profile-info profile-info--top">
-                    <span class="name"></span>
-                    <span class="btn-follow"></span>
-                    <span class="btn-contact"></span>
-                    <span class="btn-similar"></span>
-                    <span class="btn-option"></span>
+    <section class="section__left">
+        <div class="section__left-container">
+            <img class="site-logo" src="./assets/images/Logo-Instagram_white.png" alt="">
+            <nav class="nav">
+                <ul class="ul">
+                    <li class="nav__item">Accueil</li>
+                    <li class="nav__item">Recherche</li>
+                    <li class="nav__item">Découvrir</li>
+                    <li class="nav__item">Réels</li>
+                    <li class="nav__item">Messages</li>
+                    <li class="nav__item">Notifications</li>
+                    <li class="nav__item">Créer</li>
+                    <li class="nav__item">Profil</li>
+                </ul>
+                <ul class="ul">
+                    <li class="nav__item">Threads</li>
+                    <li class="nav__item">Plus</li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="section__rigth">
+            <header class="header">
+            <div class="header__section header__section--top">
+                <img class="img__profile-picture" src="./assets/images/profile_picture.jpg" alt="">
+                <div class="profile-info">
+                    <div class="profile-info--top">
+                        <span class="name">n.i.c.o.u.l.a.s</span>
+                        <span class="btn-container">
+                            <button class="btn btn-follow">Suivi(e)</button>
+                            <button class="btn btn-contact">Contacter</button>
+                            <button class="btn btn-similar">+</button>
+                            <button class="btn btn-option">...</button>
+                        </span>
+                    </div>
+                    <div class="profile-info--middle ">
+                        <span class="publications">61 publications</span>
+                        <span class="followers">354 followers</span>
+                        <span class="follow">735 suivi(e)s</span>
+                    </div>
+                    <p class="bio"profile-info__text>Nicolas Trno</p>
+                    <p class="info">Suivi(e) par <span class="info--strong">raphael.vdz</span>, <span class="info--strong">coliineeee_e</span>, <span class="info--strong">geyhson</span> et 22 autres personnes</p>
                 </div>
-                <div class="profile-info profile-info--middle ">
-                    <span class="publications"></span>
-                    <span class="followers"></span>
-                    <span class="follow"></span>
+            </div>
+            <div class="header__section header__section--story">
+                <div class="story-container">
+                    <img src="./assets/images/story1.jpg" alt="" class="story__img">
+                    <p class="story-name">Toiture ⚒️</p>
                 </div>
-                <p class="bio"></p>
+                <div class="story-container">
+                    <img src="./assets/images/story2.jpg" alt="" class="story__img">
+                    <p class="story-name">Couvreur ⚒️</p>
+                </div>
+                <div class="story-container">
+                    <img src="./assets/images/story3.jpg" alt="" class="story__img">
+                    <p class="story-name">🏍🏍</p>
+                </div>
             </div>
+        </header>
+        <main class="main feed">
+            <div class="part">
+                <span class="part__text">publications</span>
+                <span class="part__text">reels</span>
+                <span class="part__text">identifié(e)</span>
+            </div>
+            <div class="feed__img-container">
+                <img class="feed__img" src="./assets/images/Capture d'écran 2023-10-11 084209.png" alt="">
+                <img class="feed__img" src="./assets/images/Capture d'écran 2023-10-11 084231.png" alt="">
+                <img class="feed__img" src="./assets/images/Capture d'écran 2023-10-11 084239.png" alt="">
+                <img class="feed__img" src="./assets/images/Capture d'écran 2023-10-11 084246.png" alt="">
+                <img class="feed__img" src="./assets/images/Capture d'écran 2023-10-11 084253.png" alt="">
+                <img class="feed__img" src="./assets/images/Capture d'écran 2023-10-11 084310.png" alt="">
+                <img class="feed__img" src="./assets/images/Capture d'écran 2023-10-11 084320.png" alt="">
+                <img src="" alt="">
+            </div>
+        </main>
         </section>
-        <section class="header__section header__section--story">
-            <div class="story-container">
-                <img src="" alt="" class="story__img">
-                <p class="story-name"></p>
-            </div>
-            <div class="story-container">
-                <img src="" alt="" class="story__img">
-                <p class="story-name"></p>
-            </div>
-            <div class="story-container">
-                <img src="" alt="" class="story__img">
-                <p class="story-name"></p>
-            </div>
-        </section>
-    </header>
 </body>
 </html>
