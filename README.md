@@ -11,7 +11,7 @@ commence par `cloner` le repo :
  - Ouvre ton terminal (ctrl + ù)
  - colle ça
  ```shell
- git clone git@github.com:Nicolastierno/integration-instagram.git
+ git clone https://github.com/Nicolastierno/integration-instagram.git
  ```
  - si tout va bien, tu as recupérer le code (enfin le dossier, parce que ta pas grand chose pour l'instant ;) !
 
