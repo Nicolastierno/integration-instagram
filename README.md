@@ -1,4 +1,19 @@
-# Intégration de ta page insta..
+# Effet au survol des élements 2ème étape !
+### L'UX, expérience utilisateur !
+
+Pour donner une bonne expérience aux utilisateurs d'un site, il faut leur mettre un peu d'effet, on a souvent des effets au survol de la souris sur les liens par exemple.
+Il faudrait en ajouter sur nos liens, et les images, comme sur le vrai site insta  ! trop la classe !
+
+- Rappel des commande pour mettre en ligne ton code : 
+    - j'ajoute tous les elements modifé dans l'enregistrement :  
+    `git add .`
+    - Je valide les changement et j'enregistre en local :  
+    `git commit -m "un commentaire pour décrire les changement que t'as fait"`
+    - Je met en ligne le code sur github :  
+    `git push`
+
+    
+# Intégration de ta page insta.. 1ère etape !
 ### Un peu chaud mais ça peux le faire !
 
 - Les images sont dans le fichier `/assets/images`
